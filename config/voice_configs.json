@@ -1,0 +1,194 @@
+{
+  "voices": {
+    "perfect_paul": {
+      "name": "Perfect Paul",
+      "gender": "male",
+      "age_group": "adult",
+      "base_frequency": 122.0,
+      "frequency_range": 40.0,
+      "formant_shifts": {
+        "F1": 1.0,
+        "F2": 1.0,
+        "F3": 1.0
+      },
+      "speech_rate": 160,
+      "roughness": 0.15,
+      "breathiness": 0.05,
+      "nasality": 0.10,
+      "precision": 0.85,
+      "timbre_metallic": 0.40,
+      "special_effects": ["klatt_resonance"],
+      "test_phrase": "Hello, my name is Perfect Paul."
+    },
+    "beautiful_betty": {
+      "name": "Beautiful Betty",
+      "gender": "female",
+      "age_group": "adult",
+      "base_frequency": 210.0,
+      "frequency_range": 60.0,
+      "formant_shifts": {
+        "F1": 1.15,
+        "F2": 1.12,
+        "F3": 1.08
+      },
+      "speech_rate": 155,
+      "roughness": 0.08,
+      "breathiness": 0.12,
+      "nasality": 0.15,
+      "precision": 0.88,
+      "timbre_metallic": 0.35,
+      "special_effects": ["female_formant_boost"],
+      "test_phrase": "Hello, my name is Beautiful Betty."
+    },
+    "huge_harry": {
+      "name": "Huge Harry",
+      "gender": "male",
+      "age_group": "adult",
+      "base_frequency": 85.0,
+      "frequency_range": 25.0,
+      "formant_shifts": {
+        "F1": 0.85,
+        "F2": 0.90,
+        "F3": 0.92
+      },
+      "speech_rate": 140,
+      "roughness": 0.25,
+      "breathiness": 0.03,
+      "nasality": 0.05,
+      "precision": 0.90,
+      "timbre_metallic": 0.45,
+      "special_effects": ["deep_resonance", "aviation_clarity"],
+      "test_phrase": "Hello, my name is Huge Harry."
+    },
+    "kit_the_kid": {
+      "name": "Kit the Kid",
+      "gender": "child",
+      "age_group": "child",
+      "base_frequency": 280.0,
+      "frequency_range": 80.0,
+      "formant_shifts": {
+        "F1": 1.25,
+        "F2": 1.20,
+        "F3": 1.15
+      },
+      "speech_rate": 145,
+      "roughness": 0.05,
+      "breathiness": 0.08,
+      "nasality": 0.20,
+      "precision": 0.75,
+      "timbre_metallic": 0.30,
+      "special_effects": ["child_resonance", "slight_lisp"],
+      "test_phrase": "Hello, my name is Kit the Kid."
+    },
+    "frank": {
+      "name": "Frank",
+      "gender": "male",
+      "age_group": "adult",
+      "base_frequency": 115.0,
+      "frequency_range": 35.0,
+      "formant_shifts": {
+        "F1": 0.95,
+        "F2": 0.98,
+        "F3": 1.02
+      },
+      "speech_rate": 165,
+      "roughness": 0.18,
+      "breathiness": 0.07,
+      "nasality": 0.08,
+      "precision": 0.82,
+      "timbre_metallic": 0.38,
+      "special_effects": ["frank_resonance"],
+      "test_phrase": "Hello, my name is Frank."
+    },
+    "rita": {
+      "name": "Rita",
+      "gender": "female",
+      "age_group": "adult",
+      "base_frequency": 195.0,
+      "frequency_range": 55.0,
+      "formant_shifts": {
+        "F1": 1.12,
+        "F2": 1.08,
+        "F3": 1.05
+      },
+      "speech_rate": 158,
+      "roughness": 0.10,
+      "breathiness": 0.10,
+      "nasality": 0.12,
+      "precision": 0.86,
+      "timbre_metallic": 0.33,
+      "special_effects": ["rita_warmth"],
+      "test_phrase": "Hello, my name is Rita."
+    },
+    "ursula": {
+      "name": "Ursula",
+      "gender": "female",
+      "age_group": "adult",
+      "base_frequency": 180.0,
+      "frequency_range": 70.0,
+      "formant_shifts": {
+        "F1": 1.18,
+        "F2": 1.15,
+        "F3": 1.10
+      },
+      "speech_rate": 150,
+      "roughness": 0.12,
+      "breathiness": 0.15,
+      "nasality": 0.18,
+      "precision": 0.90,
+      "timbre_metallic": 0.32,
+      "special_effects": ["dramatic_emphasis"],
+      "test_phrase": "Hello, my name is Ursula."
+    },
+    "val": {
+      "name": "Val",
+      "gender": "female",
+      "age_group": "adult",
+      "base_frequency": 220.0,
+      "frequency_range": 65.0,
+      "formant_shifts": {
+        "F1": 1.20,
+        "F2": 1.18,
+        "F3": 1.12
+      },
+      "speech_rate": 170,
+      "roughness": 0.06,
+      "breathiness": 0.14,
+      "nasality": 0.22,
+      "precision": 0.78,
+      "timbre_metallic": 0.28,
+      "special_effects": ["valley_girl", "uptalk"],
+      "test_phrase": "Hello, my name is Val."
+    },
+    "rough": {
+      "name": "Rough",
+      "gender": "male",
+      "age_group": "adult",
+      "base_frequency": 105.0,
+      "frequency_range": 30.0,
+      "formant_shifts": {
+        "F1": 0.90,
+        "F2": 0.92,
+        "F3": 0.95
+      },
+      "speech_rate": 135,
+      "roughness": 0.45,
+      "breathiness": 0.20,
+      "nasality": 0.06,
+      "precision": 0.75,
+      "timbre_metallic": 0.50,
+      "special_effects": ["gravelly_texture", "vocal_fry"],
+      "test_phrase": "Hello, my name is Rough."
+    }
+  },
+  "global_settings": {
+    "sample_rate": 22050,
+    "bit_depth": 16,
+    "default_voice": "perfect_paul",
+    "vintage_artifacts_enabled": true,
+    "concatenation_artifacts": true,
+    "phrase_beeps": true,
+    "metallic_resonance": true,
+    "isa_card_simulation": true
+  }
+}

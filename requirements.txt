@@ -1,0 +1,30 @@
+# Core dependencies for DJZ-Hawk speech synthesis
+numpy>=1.21.0
+scipy>=1.7.0
+sounddevice>=0.4.0
+soundfile>=0.10.0
+librosa>=0.8.0
+pyaudio>=0.2.11
+
+# Audio processing and format support
+pydub>=0.25.0
+wave>=0.0.2
+
+# Data handling and utilities
+matplotlib>=3.5.0
+tqdm>=4.62.0
+dataclasses>=0.6
+typing-extensions>=3.10.0
+
+# Optional GUI dependencies
+tkinter>=8.6.0
+
+# Development and testing
+pytest>=6.0.0
+pytest-cov>=2.12.0
+black>=21.0.0
+flake8>=3.9.0
+
+# Documentation
+sphinx>=4.0.0
+sphinx-rtd-theme>=0.5.0
