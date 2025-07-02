@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-DJZ-Hawk rev0 - DECtalk 4.2CD (1996) Speech Synthesis Recreation
-Command-line interface for 1990s speech synthesis
+DJZ-DroidTTS - Advanced Text-to-Droid Speech Synthesis
+Command-line interface for authentic droid and robot speech generation
 """
 
 import argparse
@@ -139,20 +139,21 @@ class DJZHawk:
 
 def main():
     parser = argparse.ArgumentParser(
-        description='DJZ-Hawk rev0: DECtalk 4.2CD (1996) Speech Synthesis Recreation',
+        description='DJZ-DroidTTS: Advanced Text-to-Droid Speech Synthesis',
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
-  %(prog)s "Hello world"                    # Speak with default voice
-  %(prog)s "Hello world" -v huge_harry      # Speak with Huge Harry voice
-  %(prog)s "Hello world" -o output.wav      # Save to file
-  %(prog)s --demo perfect_paul              # Demo Perfect Paul voice
-  %(prog)s --interactive                    # Interactive mode
-  %(prog)s --list-voices                    # List all voices
+  %(prog)s "Greetings, human. I am a protocol droid."           # Basic droid speech
+  %(prog)s "Affirmative. Mission parameters received." -v huge_harry  # Military droid
+  %(prog)s "Warning: System malfunction detected." -o droid_alert.wav # Save to file
+  %(prog)s --demo perfect_paul                                  # Demo protocol droid
+  %(prog)s --interactive                                        # Interactive droid mode
+  %(prog)s --list-voices                                        # List all droid voices
   
-Available voices:
-  perfect_paul, beautiful_betty, huge_harry, frank, kit_the_kid,
-  rita, ursula, val, rough
+Available droid voices:
+  perfect_paul (Protocol Droid), beautiful_betty (Service Droid), huge_harry (Security Droid),
+  kit_the_kid (Utility Droid), frank (Standard Droid), rita (Companion Droid),
+  ursula (Command Droid), val (Entertainment Droid), rough (Industrial Droid)
         """
     )
     
@@ -221,25 +222,25 @@ Available voices:
         sys.exit(1)
 
 def interactive_mode(djz_hawk: DJZHawk):
-    """Interactive mode for DJZ-Hawk"""
+    """Interactive mode for DJZ-DroidTTS"""
     print("="*60)
-    print("DJZ-HAWK rev0 Interactive Mode")
-    print("DECtalk 4.2CD (1996) Speech Synthesis Recreation")
+    print("DJZ-DroidTTS Interactive Mode")
+    print("Advanced Text-to-Droid Speech Synthesis")
     print("="*60)
     print("Commands:")
-    print("  :voice <name>     - Change voice")
-    print("  :voices           - List voices") 
-    print("  :demo <voice>     - Demo voice")
+    print("  :voice <name>     - Change droid voice")
+    print("  :voices           - List droid voices") 
+    print("  :demo <voice>     - Demo droid voice")
     print("  :save <file>      - Save next synthesis to file")
     print("  :quit             - Exit")
-    print("  <text>            - Synthesize speech")
+    print("  <text>            - Generate droid speech")
     print("="*60)
     
     save_next = None
     
     while True:
         try:
-            user_input = input(f"DJZ-Hawk ({djz_hawk.current_voice})> ").strip()
+            user_input = input(f"DJZ-DroidTTS ({djz_hawk.current_voice})> ").strip()
             
             if not user_input:
                 continue
